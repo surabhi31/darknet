@@ -22,3 +22,23 @@ ehthumbs.db
 Icon?
 Thumbs.db
 *.swp
+
+# working directories #
+sdscc_hw/
+sdscc_hw_21Nov/
+src.bkp/
+src_hw/
+yolo.weights
+
+# repo #
+sdscc/_sds/
+sdscc/darknet.elf
+sdscc/darknet.elf.bit
+sdscc/obj/
+sdscc/sd_card.zip
+sdscc_hw_1stconv/_sds/
+sdscc_hw_1stconv/darknet.elf
+sdscc_hw_1stconv/darknet.elf.bit
+sdscc_hw_1stconv/obj/
+src/gemm_nn.h
+
