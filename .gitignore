@@ -28,7 +28,7 @@ sdscc_hw/
 sdscc_hw_21Nov/
 src.bkp/
 src_hw/
-yolo.weights
+*.weights
 
 # repo #
 sdscc/_sds/
