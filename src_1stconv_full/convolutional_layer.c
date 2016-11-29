@@ -487,9 +487,9 @@ void forward_convolutional_layer(convolutional_layer l, network_state state)
         for(i = 0; i < l.batch; ++i){
             im2col_cpu(state.input, l.c, l.h, l.w, 
                     l.size, l.stride, l.pad, b);
-          //  if(hw)
-          //    gemm_cpu_hw(0,0,m,n,k,1,a,k,b,n,1,c,n);
-          //  else
+            if(hw)
+              gemm_cpu_hw(0,0,m,n,k,1,a,k,b,n,1,c,n);
+            else
               gemm(0,0,m,n,k,1,a,k,b,n,1,c,n);
  
             c += n*m;
